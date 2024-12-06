@@ -1,0 +1,67 @@
+{"intents":[
+    {"tag":"greeting",
+    "patterns":["Hi","How are you","Is anyone there?","Hello","Good day"],
+    "responses":["Hello, thanks for visiting","Good to see you again","Hi there, how can I help?"]
+    },
+    {"tag":"goodbye",
+    "patterns":["Bye","See you later","Goodbye"],
+    "responses":["See you later, thanks for visiting","Have a nice day","Bye! Come back again soon."]
+    },
+    {"tag":"age",
+    "patterns":["How old","How old is your platform","what is your age"],
+    "responses":["I am New born","I am 1 day old","I am 1 day old"]
+    },
+
+    {"tag":"name",
+    "patterns":["What is your name","what should I call you","whats your name"],
+    "responses":["You can call me Chatbot.","I'm Chatbot!","I'm Chatbot, your virtual assistant."]
+    },
+    {"tag":"thanks",
+    "patterns":["Thanks","Thank you","That's helpful"],
+    "responses":["Happy to help!","Any time!","My pleasure"]
+    },
+    {"tag":"hours",
+    "patterns":["What hours are you open?","What are your hours?","When are you open?"],
+    "responses":["We're open 24 hours","Our hours are 24 hours in your servvice"]
+    },
+    {"tag":"location",
+    "patterns":["What is your location?","Where are you located?","What is your address?"],
+    "responses":["We are located at 123 Main St. in Vancouver BC"]
+    },
+    {
+"tag": "mental_health",
+"patterns": [
+"I am feeling stressed",
+"I need help with stress",
+"Dealing with mental stress",
+"Feeling overwhelmed",
+"Mental health support",
+"Pandemic stress",
+"Stressed out"
+],
+"responses": [
+"I'm sorry to hear that you're feeling stressed. It's important to take care of your mental health.",
+"Stress is a common experience, especially during these challenging times. It's important to seek support.",
+"Mental health is crucial, and it's understandable to feel stressed. Let's find a way to help you."
+]
+},
+{
+"tag": "connect_doctor",
+"patterns": [
+"I need to talk to a doctor",
+"Connect me to a doctor",
+"Can I chat with a doctor?",
+"Doctor consultation",
+"Mental health professional"
+],
+"responses": [
+"I understand your need to speak with a doctor. Please wait a moment while I connect you.",
+"Connecting you to a doctor now. Please wait a moment."
+]
+}
+
+
+
+
+
+]}
